@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test thread-count="5" name="Test">
+		<classes>
+
+			
+			
+			<class name="LearnTestNG.TestNG_SmokeSanity" >
+			<methods>
+			<include name="login1" />
+			<include name="browse2" />
+			<include name="SelectProduct3" />
+			<include name="CheckoutPage4" />
+			<include name="PaymentGate5" />
+			</methods>
+			</class>
+			
+			
+		</classes>
+
+
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
