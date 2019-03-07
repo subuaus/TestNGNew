@@ -9,7 +9,7 @@ import org.testng.annotations.Test;
 public class AT01_NavigateToHN {
 	
 	//CHECKING THIS LINE ON GIT......
-	
+	//CHECKING THIS LINE ON GIT......
 	WebDriver driver;
 @Test
 public void navigate(){
